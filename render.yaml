@@ -3,20 +3,20 @@ services:
     name: levanter
     runtime: docker
     branch: master
-    repo: 'https://github.com/lyfe00011/whatsapp-bot-md.git'
+    repo: 'https://github.com/OwnerCO/whatsapp-bot-md.git'
     plan: free
     autoDeploy: true
     envVars:
       - key: SUDO
-        sync: false
+        value: '51978194933'
       - key: PREFIX
-        sync: false
+        value: '#'
       - key: STICKER_PACKNAME
-        value: ',LyFE'
+        value: '𝗦𝗬𝗦𝗦𝗢𝗟𝗨𝗧𝗜𝗢𝗡𝗦 || 𝟮𝟬𝟮𝟰'
       - key: RMBG_KEY
-        value: 'null'
+        value: 'pAEkGzSxvowgynjmdC2B59nY'
       - key: WARN_LIMIT
-        value: '3'
+        value: '2'
       - key: LIST_TYPE
         value: 'text'
       - key: BING_COOKIE
@@ -24,18 +24,18 @@ services:
       - key: GEMINI_API_KEY
         value: 'null'
       - key: RENDER_NAME
-        sync: false
+        value: 'OwnerCO'
       - key: RENDER_API_KEY
-        sync: false
+        value: 'rnd_mmRcVTmpYJuqJ8DaZMtlrQfDVNZi'
       - key: ANTI_DELETE
-        value: 'off'
+        value: 'on'
       - key: AUTO_STATUS_VIEW
-        value: 'false'
+        value: 'true'
       - key: SEND_READ
-        value: 'false'
+        value: 'true'
       - key: SESSION_ID
-        sync: false
+        value: '4_8_fe2e_b5d6_6696'
       - key: PORT
         value: '3000'
       - key: DATABASE_URL
-        sync: false
+        value: 'postgresql://anytamdonline_user:OQoKV0bf1YMSEoLZqBk2LbKwQFhcBOjZ@dpg-cqmj9l3v2p9s73ek96dg-a.oregon-postgres.render.com/anytamdonline'
